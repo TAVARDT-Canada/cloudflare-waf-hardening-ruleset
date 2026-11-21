@@ -9,6 +9,21 @@ Production-grade Cloudflare WAF custom ruleset and edge security blueprint align
 
 Engineered and maintained by the cybersecurity engineering group at **[TAVARDT Canada](https://ag.tavardt.com/ca/cybersecurity/)**.
 
+> [!IMPORTANT]
+> **Universal & Stack-Agnostic Architecture:** This repository is **not restricted to WordPress**. It is designed to safeguard **REST APIs, microservices, modern web apps (Next.js, React), and backend workloads (Node.js, Python, Go, PHP, Java)**. Blocking legacy CMS probes functions as an **active edge hygiene layer**, neutralizing automated reconnaissance and botnet scans at the Cloudflare edge (< 1ms) without taxing your origin compute.
+
+---
+
+### Multi-Stack Defense Matrix
+
+| Defense Layer | Mitigated Vectors | Protected Environments & Stacks |
+| :--- | :--- | :--- |
+| **Secret & Config Isolation** | Edge block on `.env`, `.git`, `.sql`, `package.json`, `composer.json` | **APIs, Next.js, Node.js, Python, Go, Laravel, React** |
+| **Exploit Scanner Mitigation** | Block automated scanners (Nikto, SQLMap, Acunetix, Masscan, Nmap) | **Any production web service, microservice, or API** |
+| **HTTP Verb Filtering** | Dropping dangerous diagnostic verbs (`TRACE`, `TRACK`, `DEBUG`) | **RESTful APIs and production backends** |
+| **Privileged Route Gating** | Managed challenges protecting administration paths (`/admin`, `/login`) | **Administrative consoles, cloud dashboards, portals** |
+| **Zero-Noise Edge Hygiene** | Dropping blind probes on `/xmlrpc.php` and amplification vectors | **Protection of origin CPU, memory, and TCP connections** |
+
 ---
 
 ## 1. Edge Security Architecture
