@@ -7,7 +7,7 @@
 
 Production-grade Cloudflare WAF custom ruleset and edge security blueprint aligned with PIPEDA requirements and CCCS baseline cyber security controls.
 
-Engineered and maintained by the cybersecurity engineering group at **[{entity}]({corp_service})**.
+Engineered and maintained by the cybersecurity engineering group at **[TAVARDT Canada](https://ag.tavardt.com/ca/cybersecurity/)**.
 
 ---
 
@@ -27,8 +27,8 @@ This repository delivers hardened, production-tested Cloudflare edge firewall ru
 
 Validate your domain's transport layer security and HTTP headers before deploying edge configuration rules in production:
 
-* **Security Headers & SSL Diagnostic:** [TAVARDT Canada Security Headers Audit]({diag_tool})
-* **Full Engineering Tools Suite:** [TAVARDT Tools Canada]({diag_hub})
+* **Security Headers & SSL Diagnostic:** [TAVARDT Canada Security Headers Audit](https://tools.tavardt.com/ca/security-headers-check/)
+* **Full Engineering Tools Suite:** [TAVARDT Tools Canada](https://tools.tavardt.com/ca/)
 
 ---
 
@@ -62,12 +62,12 @@ terraform apply -var="zone_id=YOUR_ZONE_ID"
 
 Should your enterprise require in-depth security assessments, PIPEDA compliance validation, or autonomous agent hardening:
 
-* **Corporate Portal:** [{entity}]({corp_service})
-* **Technical Contact:** [Connect with Engineering]({corp_contact})
+* **Corporate Portal:** [TAVARDT Canada](https://ag.tavardt.com/ca/cybersecurity/)
+* **Technical Contact:** [Connect with Engineering](https://ag.tavardt.com/ca/contact/)
 
 ---
 
 ## Licence
 
 Distributed under the open-source MIT Licence. Refer to the [`LICENSE`](LICENSE) file for more information.  
-Copyright (c) 2026 {entity}.
+Copyright (c) 2026 TAVARDT Canada.
