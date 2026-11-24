@@ -82,6 +82,14 @@ Should your enterprise require in-depth security assessments, PIPEDA compliance 
 
 ***
 
+## Useful Links
+
+* **Corporate Portal:** https://ag.tavardt.com/ca/
+* **Diagnostic Suite:** https://tools.tavardt.com/ca/
+* **Technical Contact:** https://ag.tavardt.com/ca/contact/
+
+***
+
 ## Licence
 
 Distributed under the open-source MIT Licence. Refer to the [`LICENSE`](LICENSE) file for more information.  
