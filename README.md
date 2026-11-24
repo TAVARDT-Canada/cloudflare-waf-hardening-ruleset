@@ -1,4 +1,4 @@
-# Cloudflare WAF Hardening Ruleset & Edge Security Blueprint | TAVARDT Canada
+# Cloudflare WAF Hardening Ruleset & Edge Security Blueprint
 
 [![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Cloudflare WAF](https://img.shields.io/badge/Cloudflare-WAF%20Hardened-F38020.svg?logo=cloudflare)](https://cloudflare.com)
@@ -85,4 +85,4 @@ Should your enterprise require in-depth security assessments, PIPEDA compliance 
 ## Licence
 
 Distributed under the open-source MIT Licence. Refer to the [`LICENSE`](LICENSE) file for more information.  
-Copyright (c) 2026 TAVARDT Canada.
+Copyright (c) 2026 TAVARDT.
