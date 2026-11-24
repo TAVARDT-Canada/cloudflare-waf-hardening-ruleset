@@ -7,24 +7,24 @@
 
 Production-grade Cloudflare WAF custom ruleset and edge security blueprint aligned with PIPEDA requirements and CCCS baseline cyber security controls.
 
-Engineered and maintained by the cybersecurity engineering group at **[TAVARDT Canada](https://ag.tavardt.com/ca/cybersecurity/)**.
+Engineered and maintained by the cybersecurity engineering group at **TAVARDT Canada**.
 
 > [!IMPORTANT]
 > **Universal & Stack-Agnostic Architecture:** This repository is **not restricted to WordPress**. It is designed to safeguard **REST APIs, microservices, modern web apps (Next.js, React), and backend workloads (Node.js, Python, Go, PHP, Java)**. Blocking legacy CMS probes functions as an **active edge hygiene layer**, neutralizing automated reconnaissance and botnet scans at the Cloudflare edge (< 1ms) without taxing your origin compute.
 
----
+***
 
 ### Multi-Stack Defense Matrix
 
 | Defense Layer | Mitigated Vectors | Protected Environments & Stacks |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | **Secret & Config Isolation** | Edge block on `.env`, `.git`, `.sql`, `package.json`, `composer.json` | **APIs, Next.js, Node.js, Python, Go, Laravel, React** |
 | **Exploit Scanner Mitigation** | Block automated scanners (Nikto, SQLMap, Acunetix, Masscan, Nmap) | **Any production web service, microservice, or API** |
 | **HTTP Verb Filtering** | Dropping dangerous diagnostic verbs (`TRACE`, `TRACK`, `DEBUG`) | **RESTful APIs and production backends** |
 | **Privileged Route Gating** | Managed challenges protecting administration paths (`/admin`, `/login`) | **Administrative consoles, cloud dashboards, portals** |
 | **Zero-Noise Edge Hygiene** | Dropping blind probes on `/xmlrpc.php` and amplification vectors | **Protection of origin CPU, memory, and TCP connections** |
 
----
+***
 
 ## 1. Edge Security Architecture
 
@@ -36,16 +36,16 @@ This repository delivers hardened, production-tested Cloudflare edge firewall ru
 * **HTTP Method Sanitisation:** Perimeter filtering of unsafe debugging methods (`TRACE`, `TRACK`, `DEBUG`).
 * **Managed Challenges for Privileged Routes:** Adaptive challenge mechanics protecting administrative consoles (`/wp-login.php`, `/admin`).
 
----
+***
 
 ## 2. Pre-Deployment Diagnostic Suite
 
 Validate your domain's transport layer security and HTTP headers before deploying edge configuration rules in production:
 
-* **Security Headers & SSL Diagnostic:** [TAVARDT Canada Security Headers Audit](https://tools.tavardt.com/ca/security-headers-check/)
-* **Full Engineering Tools Suite:** [TAVARDT Tools Canada](https://tools.tavardt.com/ca/)
+* **Security Headers & SSL Diagnostic:** **TAVARDT Canada Security Headers Audit**
+* **Full Engineering Tools Suite:** **TAVARDT Tools Canada**
 
----
+***
 
 ## 3. Deployment Instructions
 
@@ -57,7 +57,7 @@ Deploy the ruleset directly using [`rules/ruleset.json`](rules/ruleset.json):
 curl -X PUT "https://api.cloudflare.com/client/v4/zones/YOUR_ZONE_ID/rulesets/phases/http_request_firewall_custom/entrypoint" \
      -H "Authorization: Bearer YOUR_CLOUDFLARE_API_TOKEN" \
      -H "Content-Type: application/json" \
-     --data @rules/ruleset.json
+     -data @rules/ruleset.json
 ```
 
 ### Option B: Infrastructure-as-Code via Terraform
@@ -71,16 +71,16 @@ terraform plan -var="zone_id=YOUR_ZONE_ID"
 terraform apply -var="zone_id=YOUR_ZONE_ID"
 ```
 
----
+***
 
 ## 4. Professional Advisory & Technical Support
 
 Should your enterprise require in-depth security assessments, PIPEDA compliance validation, or autonomous agent hardening:
 
-* **Corporate Portal:** [TAVARDT Canada](https://ag.tavardt.com/ca/cybersecurity/)
+* **Corporate Portal:** **TAVARDT Canada**
 * **Technical Contact:** [Connect with Engineering](https://ag.tavardt.com/ca/contact/)
 
----
+***
 
 ## Licence
 
