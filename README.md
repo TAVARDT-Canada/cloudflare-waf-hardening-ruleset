@@ -90,10 +90,9 @@ Should your enterprise require in-depth security assessments, PIPEDA compliance 
 
 ***
 
-## Licence
+### Licence
 
-Distributed under the open-source MIT Licence. Refer to the [`LICENSE`](LICENSE) file for more information.  
-Copyright
+Distributed under the open-source MIT Licence. Refer to the [`LICENSE`](LICENSE) file for more information.
 
 ***
 
