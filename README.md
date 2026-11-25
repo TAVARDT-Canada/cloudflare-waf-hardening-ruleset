@@ -1,13 +1,10 @@
 # Cloudflare WAF Hardening Ruleset & Edge Security Blueprint
 
-[![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Cloudflare WAF](https://img.shields.io/badge/Cloudflare-WAF%20Hardened-F38020.svg?logo=cloudflare)](https://cloudflare.com)
-[![Language](https://img.shields.io/badge/Language-English%20(Canada)-green.svg)](README.md)
 [![Diagnostics Suite](https://img.shields.io/badge/TAVARDT-Diagnostics-5b3cf5.svg)](https://tools.tavardt.com/ca/security-headers-check/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Production-grade Cloudflare WAF custom ruleset and edge security blueprint aligned with PIPEDA requirements and CCCS baseline cyber security controls.
-
-Engineered and maintained by the cybersecurity engineering group at **TAVARDT**.
 
 > [!IMPORTANT]
 > **Universal & Stack-Agnostic Architecture:** This repository is **not restricted to WordPress**. It is designed to safeguard **REST APIs, microservices, modern web apps (Next.js, React), and backend workloads (Node.js, Python, Go, PHP, Java)**. Blocking legacy CMS probes functions as an **active edge hygiene layer**, neutralizing automated reconnaissance and botnet scans at the Cloudflare edge (< 1ms) without taxing your origin compute.
@@ -73,16 +70,7 @@ terraform apply -var="zone_id=YOUR_ZONE_ID"
 
 ***
 
-## 4. Professional Advisory & Technical Support
-
-Should your enterprise require in-depth security assessments, PIPEDA compliance validation, or autonomous agent hardening:
-
-* **Corporate Portal:** **TAVARDT**
-* **Technical Contact:** [Connect with Engineering](https://ag.tavardt.com/ca/contact/)
-
-***
-
-## Useful Links
+## 4. Useful Links
 
 * **Corporate Portal:** https://ag.tavardt.com/ca/
 * **Diagnostic Suite:** https://tools.tavardt.com/ca/
@@ -92,7 +80,7 @@ Should your enterprise require in-depth security assessments, PIPEDA compliance 
 
 ### Licence
 
-Distributed under the open-source MIT Licence. Refer to the [`LICENSE`](LICENSE) file for more information.
+Distributed under the open-source MIT Licence.
 
 ***
 
